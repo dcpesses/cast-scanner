@@ -1,22 +1,37 @@
-# chromecast-scanner
+# cast-scanner
 
-scan your local network for chromecast devices and return the
-first found.
+### Scan your local network for all Chromecast devices.
 
-### Usage
+Originally based on [xat/chromecast-scanner](https://github.com/xat/chromecast-scanner).
+
+
+## Installation
+
+`npm install dcpesses/cast-scanner`
+
+## Usage
+
 ```javascript
-var scanner = require('chromecast-scanner');
+var scanner = require('cast-scanner');
+```
 
-scanner(function(err, service) {
-  console.log('chromecast %s running on: %s',
-    service.name,
-    service.data);
+Results can be obtained through either a callback and/or an event.
+
+### Simple Callback
+```javascript
+scanner(function(data) {
+    console.log('data:', data);
 });
 ```
 
-### Installation
+### Event Listener
+```javascript
+scanner.on('results', function(data) {
+    console.log('data:', data);
+});
+```
 
-`npm install chromecast-scanner`
+
 
 ## License
 MIT
