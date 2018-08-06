@@ -1,7 +1,7 @@
 {
   "name": "cast-scanner",
   "version": "1.0.0",
-  "description": "Scan your local network for all Chromecast devices",
+  "description": "Scans your local network for all Chromecast devices",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
