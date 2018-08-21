@@ -1,6 +1,6 @@
 # cast-scanner
 
-[![Build Status](https://travis-ci.org/dcpesses/cast-scanner?branch=master)](https://travis-ci.org/dcpesses/cast-scanner) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://travis-ci.org/dcpesses/cast-scanner.svg?branch=master)](https://travis-ci.org/dcpesses/cast-scanner) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ### Scan your local network for all Chromecast devices.
 
